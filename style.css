@@ -14,7 +14,7 @@
 :root{
     --bg-color: #fdfdfd;
     --text-color: #333;
-    --main-color: #2359ec;
+    --main-color: #dfdf06;
     --white-color : #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 }
@@ -393,20 +393,16 @@ span{
     gap: 2.5rem;
 }
 
-.portfolio-container .portfolio-box {
+.portfolio-container .portfolio-box{
     position: relative;
     display: flex;
-    border-radius: 9rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
     overflow: hidden;
-    width: 90%; /* Adjust this to control the width of the box */
-    height: 90%; /* Adjust this to control the height of the box */
-    margin: 0 auto; /* Center the portfolio boxes */
 }
 
-.portfolio-box img {
+.portfolio-box img{
     width: 100%;
-    height: auto; /* Ensures the aspect ratio is maintained */
     transition: .5 ease;
 }
 
